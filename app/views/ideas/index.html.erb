@@ -1,1 +1,14 @@
-<%= @ideas %>
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+   <% @ideas.each do |idea|%>
+    <div class="thumbnail">
+      <%= image_tag idea.image_url %>
+      <div class="caption">
+        <h3><%= idea.title %></h3>
+        <p><%= idea.contents %></p>
+        <p><a href="#" class="btn btn-primary" role="button">more</a> <a href="#" class="btn btn-default" role="button">contact</a></p>
+      </div>
+    </div>
+   <% end %>
+  </div>
+</div>
