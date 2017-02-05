@@ -1,0 +1,7 @@
+
+<%= form_tag('/ideas', method: :post) do %>
+<input type="text"  name="image_url" class="form-control" placeholder="Image Url">
+<input type="text" name="title" class="form-control" placeholder="Text Title">
+<textarea name="contents" class="form-control" rows="3" placeholder="Text"></textarea>
+<input type="submit" value="Sent">
+<% end %>
