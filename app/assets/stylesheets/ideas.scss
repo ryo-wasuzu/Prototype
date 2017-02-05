@@ -1,1 +1,94 @@
+header{
+  height:60px;
+  color:white;
+  background-color:black;
+}
+
+.header-left{
+  float:left;
+}
+
+.header-left ul{
+  margin-top:20px;
+}
+.header-left li{
+  float:left;
+  list-style:none;
+  padding-left:10px;
+}
+
+.header-left span{
+  padding-right:5px;
+}
+
+.header-left a{
+  text-decoration:none;
+  color:white;
+  transition:0.5s;
+    }
+
+.header-left a:hover{
+  opacity:0.6;
+}
+.header- a{
+  font-size:20px;
+  display:block;
+  padding: 15px 15px 15px 20px;
+  text-decoration:none;
+  color:white;
+  transition: 0.5s;
+}
+
+.header-left a:hover{
+  opacity:0.6;
+}
+
+
+
+.header-right{
+  padding-top:20px;
+  float:right;
+  padding-right:130px;
+}
+
+.header-right li{
+  color:white;
+  float:left;
+  list-style:none;
+  padding-left:10px;
+}
+
+.button{
+  height:60px;
+  width:50px;
+  background-color:white;
+  position:fixed;
+  top:0px;
+  right:0px;
+  border:none;
+  transition:backgrouond-color 1.0s;
+}
+
+.hamburger{
+  background-color:black;
+  width:30px;
+  height:20px;
+  margin:auto;
+  position:absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  transition:background-color 1.0s;
+  }
+
+.button:hover{
+  background-color:black;
+}
+
+.hamburger:hover{
+  background-color:white;
+}
+
+
 
